@@ -1,0 +1,70 @@
+html{overflow-x:hidden;}
+
+@media (min-width: 796px)
+{   
+
+    .logo{width:70px;}
+}
+
+.logo{
+    width: 100px;
+    float:left;
+}
+h1{
+    font-size: 70px;
+    text-align: center; 
+    letter-spacing: 1px;
+    color: rgb(51, 68, 85);
+    font-family:Georgia;
+    
+    
+}
+h2{
+    font-size: x-large;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-color: rgb(255, 153, 0);
+}
+.container-fluid{
+    background-color:antiquewhite;
+}
+body{
+    background-color: rgb(114, 224, 191);
+}
+ol{
+    background-color: antiquewhite;
+}
+.text-danger{
+    background-color:antiquewhite;
+    font-size: x-larger;
+    color:rgb(255, 123, 0);
+}
+.text-danger2{
+    color:rgb(255, 153, 0);
+    background-color:rgb(255, 153, 0);
+    font-size: x-larger;
+}
+.text-danger3{
+    background-color:rgb(255, 153, 0);
+    font-size: x-larger;
+    color:rgb(255, 153, 0);
+}
+form{
+    background-color: antiquewhite;}
+
+table{
+    background-color:antiquewhite;}
+
+
+td {font-size: small;}
+img{max-width: 400px;}
+
+tbody tr:nth-child(odd)
+{
+    background-color: rgb(255, 153, 0);
+}
+tbody tr:nth-child(even){
+
+    background-color:antiquewhite;
+
+}

@@ -1,0 +1,333 @@
+
+<!Doctype html>
+<html lang ="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Задание №5</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="stik.css">
+    <script src="calculator.js"></script>
+</head>
+<body>
+    <div class="container-fluid m-auto">
+        <header class="p-md-5">
+            <div class="logo"><a href=""><img src="logo.jpg"class="logo float-left"alt="Логотип"></a></div>
+            <h1 class="backtext">LADA</h1>
+        </header>
+    </div>
+    <hr>
+    <div class="container">
+        <nav class="d-flex flex-flow">
+            <div class ="col-md-12 px-md-5 bg-info">
+                <div class="d-flex flex-column flex-md-row p-2 row">
+                    <a class="text-danger text-center col-sm" href="#linkedlist">Ссылки</a>
+                    <a class="text-danger t2 text-center col-sm" href="#table">Таблица</a>
+                    <a class="text-danger t3 text-center col-sm" href="#form">Форма</a>
+                </div>
+            
+        </nav>
+        <div class="container">
+        <div class="container">
+        <div class="flex-column">
+        <div class="p-1"></div>
+        <div class="flex-order">
+        <div class="d-flex flex-column-reverse flex-sm-column">
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+            <h2>Список:</h2>
+
+  
+      <ol>
+        <li>
+          <a href="http://www.kubsu.ru/"
+          title="Официальный сайт
+          Кубанского государственного
+          университета">абсолютная гиперссылка на главную страницу сайта КубГУ</a></li><br></li>
+        <li>
+          <a href="https://www.kubsu.ru/"
+          title="Официальный сайт
+          Кубанского государственного
+          университета">абсолютная гиперссылка на главную страницу сайта КубГУ  в протоколе https</a></li><br></li>
+        <li>
+           <a href="Skazka.jpg"><img src="Skazka.jpg" class ="logot"></a></li><br></li>
+    
+    <li>
+      <a href="Pap1/form.html">Сокращенная ссылка на внутреннюю страницу.</a></li><br></li>
+    <li>
+      <a href="asd.html">Сокращенная ссылка на главную страницу.</a></li><br></li>
+    <li>
+      <a href=#bot>Ссылка на фрагмент текущей страницы(Конец страницы).</a></li><br></li>
+    <li>
+      <a href="https://www.wildberries.ru/catalog/0/search.aspx?page=1&sort=priceup&search=cfvjktn">Ссылка с тремя параметрами в URL</a></li><br></li>
+    <li>
+      <a href="https://пример/?id=228">Ссылка с параметром id в URL; </a></li><br></li>
+    <li>
+      <a href="demo.html">Относительная на страницу в текущем каталоге.</a></li><br></li>
+    <li>
+      <a href="about/52812.html">Относительная на страницу в каталоге about.</a></li><br></li>
+    <li>
+     <a href="../AUUU.html">Относительная на страницу в каталоге уровнем выше текущего </a></li><br></li>
+    <li>
+      <a href="../../YEEI.html"> Относительная на страницу в каталоге двумя уровнями выше;  </a></li><br></li>
+    <li>
+     Авто  <a href="https://auto.ru/">тут</a>.</li><br></li>
+ 
+    <li>
+      <a href="https://auto.ru/#:~:text=Lada">Cсылку на фрагмент страницы стороннего сайта</a>.</li><br></li>
+    <li>
+      <map name ="avito">
+       <area shape="rect"coords="119,81,375,160"href="https://www.avito.ru/"alt="Прямоугольник">
+        <area shape="circle"coords="504,130,46"href="https://youla.ru/all" alt="Круг">
+        </map>
+        <a ><img src="15.png" class="logot2" usemap="#avito"></a></li><br></li>
+    <li>
+      <a href=""> Cсылку с пустым href; </a></li><br></li>
+    <li>
+      <a > Cсылку без href; </a></li><br></li>
+    <li>
+      <a href="https://пример/"rel="nofollow">  Cсылку, по которой запрещен переход поисковикам; </a></li><br></li>
+    <li>
+      <a href="https://пример/"> <noindex>   Запрещенную для индексации поисковиками;  </noindex></a></li><br></li>
+    <li>
+    Список ссылок основной навигации сайта с подписями title
+        <ol>
+            <br><li><a href="https://auto.ru/"title="Авто.ру">Авто.ру</a></li><br></li>
+            <li><a href="https://www.avito.ru/"title="Авито">Авито</a></li><br></li>
+            <li><a href="https://youla.ru/all"title="Юла">Юла</a></li><br></li>
+        </ol>
+    </li><br></li>
+    <li>
+      <a href="ftp://username:password@petrosyan.com/cars/document.txt">Ссылка на файл на сервере FTP с авторизацией.</a></li><br></li>
+  </div>
+</ol>
+
+
+
+<div class="tabl">
+    <table class="tabletask">
+      
+      <h5>Калькулятор</h5>
+
+          <div class="container-fluid">
+            <form name="calc" onsubmit="return false;">
+                <div class="row">
+                    <div class="col-3">
+                        <h6>Детали: (шт в комплекте)</h6>
+                    </div>
+                    <div class="col-2">
+                        <h3>Цена</h3>
+                    </div>
+                    <div class="col-2">
+                        <h6>Количество</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <p>Фары (2шт)</p>
+                    </div>
+                    <div class="col-2">
+                        <input name="price" type="number" value="40000" readonly>
+                    </div>
+                    <div class="col-2">
+                        <input name="count" type="number"  value="0" min="0">
+                    </div>
+                
+                  </div>
+                
+                  <div class="row">
+                    <div class="col-3">
+                        <p>Лобавое стекло(1шт)</p>
+                    </div>
+                    <div class="col-2">
+                        <input name="price1" type="number" value="20000" readonly>
+                    </div>
+                    <div class="col-2">
+                        <input name="count1" type="number" value="0" min="0">
+                    </div>
+                </div>
+           
+                <div class="row">
+                  <div class="col-3">
+                      <p>Бампер(1шт)</p>
+                  </div>
+                  <div class="col-2">
+                      <input name="price2" type="number" value="13000" readonly>
+                  </div>
+                  <div class="col-2">
+                      <input name="count2" type="number" value="0" min="0">
+                  </div>
+              </div>
+
+              <div class="row">
+                <div class="col-3">
+                    <p>Коврик(4шт)</p>
+                </div>
+                <div class="col-2">
+                    <input name="price3" type="number" value="5500" readonly>
+                </div>
+                <div class="col-2">
+                    <input name="count3" type="number" value="0" min="0">
+                </div>
+              </div>
+
+              <div class="row">
+              <div class="col-3">
+                  <p>Диагностика</p>
+              </div>
+              <div class="col-2">
+                  <input name="price4" type="number" value="2500" readonly>
+              </div>
+              <div class="col-2">
+                  <input name="count4" type="number" value="0" min="0">
+              </div>
+              </div>
+
+
+          <button onclick="calculate();">Рассчитать стоимость заказа</button>
+        </form>
+      <div id="result"></div> 
+        </div>
+            
+          
+
+
+    <a id="table"><h4>Таблица</h4></a>
+    <caption>Характеристики LadaVestaNG</caption>
+    <tr>
+        <th>Двигатель</th>
+        <th>Комплектация</th>
+        <th>Цвет</th>
+        <th>Цена дилер</th>
+        <th>Цена завод</th>
+    </tr>
+  
+    <tr>
+        <td>1.6</td>
+        <td>Comfort</td>
+        <td>Черный</td>
+        <td>1.350.000</td>
+        <td>1.150.000</td>
+
+    </tr>
+    <tr>
+        <td>1.6</td>
+        <td>Life</td>
+        <td>Белый</td>
+        <td colspan="2">1.450.000</td>
+    </tr>
+  
+    <tr>
+        <td>1.8</td>
+       <td>Enjoy</td>
+       <td>Серебристый</td>
+       <td>1.600.000</td>
+       <td>1.350.000</td>
+
+    </tr>
+    <tr>
+        <td>1.6</td>
+        <td>Life</td>
+        <td>Черный</td>
+        <td colspan="2">1.450.000</td>
+    </tr>
+  
+    <tr>
+        <td>1.8</td>
+       <td>Techno</td>
+       <td>Белый (черн.крыша)</td>
+       <td colspan="2">1.800.000</td>
+    </tr>
+    <tr>
+        <td>1.6</td>
+        <td>Сomfort</td>
+        <td>Черный</td>
+        <td>1.350.000</td>
+        <td>1.150.000</td>
+    </tr>
+  </table>
+  </div>
+  <div class="form1">
+    <h3>Форма:</h3>
+      <form action="/"
+    
+        method="POST">
+        <a id="form"></a>
+        <label>
+         Текстовое поле ФИО:<br />
+         <input name="field-name"
+           placeholder="Введите ФИО" /> 
+        </label><br /><br/>
+
+
+        <label>
+          Поле tel:<br />
+          <input type="number" >
+        </label><br/><br/>
+
+        <label>
+          Текстовое поле email:<br>
+          <input name="field-email" type="email" placeholder="Введите вашу почту">
+        </label><br/><br/>
+
+        <label>
+          Поле даты рождения:<br>
+          <input name="field-date" value="2005-09-11" type="date">
+        </label><br/><br/>
+
+
+        Радиокнопки (пол):<br />
+        <label><input type="radio" checked="checked"
+          name="radio-group-1" value="Значение1" />
+          Мужской</label>
+        <label><input type="radio"
+          name="radio-group-1" value="Значение2" />
+          Женский</label><br /><br/>
+
+        <label>
+          Любимый язык программирования: (listbox с множественным выбором):
+          <br>
+          <select name="field-name-4[]" multiple="multiple">
+            <option value="Значение1"> Pascal</option>
+            <option value="Значение2" selected="selected">C</option>
+            <option value="Значение3" selected="selected"> C++</option>
+            <option value="Значение4" selected="selected"> JavaScript</option>
+            <option value="Значение5" selected="selected"> PHP</option>
+            <option value="Значение6" selected="selected"> Python</option>
+            <option value="Значение7" selected="selected"> Java</option>
+            <option value="Значение8" selected="selected"> Haskel</option>
+            <option value="Значение9" selected="selected"> Clojure</option>
+            <option value="Значение10" selected="selected"> Prolog</option>
+            <option value="Значение11" selected="selected"> Scala</option>
+          
+          </select>
+        </label><br/><br/>
+
+        <label>
+          Биография (многострочное текстовое поле):<br>
+          <textarea name="field-name-2">Напишите свою биографию</textarea>
+        </label> <br/><br/>
+  
+       
+
+        "Чекбокс:"
+          <br/>
+          <label><input type="checkbox" checked="checked" name="check-1">
+          с контрактом ознакомлен (а) </label>
+    
+      <br/><br/>
+      <input type="submit" value="Сохранить">
+      </form>
+    </div>
+</div>
+    </body>
+  <footer><a id="bot"></footer>
+</html> 
+
+</body>
+</html>
